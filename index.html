@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras - RC</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>RC - Eletrônicos</h1>
+                <p class="subtitle">Sua Loja de Eletrônicos</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Seção de Produtos -->
+            <section class="products-section">
+                <h2>Produtos Disponíveis</h2>
+                <div id="products-container" class="products-grid">
+                    <!-- Os produtos serão renderizados aqui pela View -->
+                </div>
+            </section>
+
+            <!-- Seção do Carrinho -->
+            <section class="cart-section">
+                <h2>Carrinho de Compras</h2>
+                <div id="cart-container" class="cart-container">
+                    <div id="cart-items" class="cart-items">
+                        <!-- Os itens do carrinho serão renderizados aqui -->
+                    </div>
+                    <div class="cart-summary">
+                        <div class="summary-row">
+                            <span>Total de Itens:</span>
+                            <span id="cart-count" class="cart-count">0</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Valor Total:</span>
+                            <span id="cart-total" class="cart-total">R$ 0,00</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Loja Virtual MVC - Projeto Educativo</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
